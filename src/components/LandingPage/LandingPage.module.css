@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.landing{
+  background-image: url('../../images/joystick3_iphone2.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+  background-position: center;
+  margin:0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.head{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.titulo{
+  color: var(--color-red);
+  font-size: 3rem;
+  margin:2rem 0;
+  margin-top: 20vh;
+    
+}
+
+.henry{
+  color: whitesmoke;
+  font-size: 2rem;
+  margin:2rem
+}
+
+.pie{
+  color: whitesmoke;
+  position:fixed;
+  font-size: 1rem;
+  bottom: 4vh;
+  right: 2vw;
+}
+
+
+.button {
+  border-color: #adb1b8;
+  border-width: 0.5px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 1.4rem;
+  height: 3rem;
+  outline: 0;
+  padding: 0 1.1rem;
+  text-align: center;
+  white-space: nowrap;
+  transition: 0.4s;
+}
+
+.button:hover {
+  border-color: #fff;
+  background-color: var(--color-blue-button);
+  color: #fff;
+  transform: translateY(-0.2rem);
+}
+
+
+.button:focus {
+  border-color: #e72300;
+  box-shadow: rgba(110, 4, 4, 0.5) 0 0 0.3rem 0.2rem;
+  outline: 0;
+}
+
+
+@media (min-width: 768px) {
+  .landing{
+    background-image: url('../../images/joystick3_tablet.jpg');
+  }
+  .titulo{
+    font-size: 4rem;
+    margin:3rem 0;
+    margin-top: 20vh;
+      
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .landing{
+    background-image: url('../../images/joystick3_desktop.jpg');
+  }
+}

@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0
+}
+
+html{
+  font-size: 62.5%;
+}
+  
+  .SBar {
+    display:flex;
+    justify-content: center;
+    gap: 0.3em;
+    background-color: #f6f6f6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.4rem;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    margin: .6rem 25vw;
+    margin-left: 24.5vw;
+    padding: 0.5rem;
+    border-color: whitesmoke;
+    width: 50vw;
+    
+  }
+  
+  .SBinput {
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
+    border-radius: 0.2em;
+    color: #999;
+    float: left;
+    font: 1.4rem Arial,sans-serif;
+    height: 2.5rem;
+    padding: 1rem;
+    width: 45vw;
+  } 
+  
+  .SBinput:focus {
+    border-color: #aaa;
+    box-shadow: 0 1px 1px #bbb inset;
+    outline: 0;
+  } 
+  
+  .SBbutton {
+    background-color: var(--color-blue-button);
+    border: 1px solid #00748f;
+    border-radius: 0.2em;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    color: #fafafa;
+    cursor: pointer;
+    height: 2.5rem;
+    font: 1.5rem Arial,sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 3vw;
+  }
+  
+  .SBbutton:hover {
+    background-color: var(--color-lightblue);
+
+  }
+  
+  .SBbutton:active {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+  }
+
+  .buttonX{
+    border-color: #adb1b8;
+    border-width: 0.5px;
+    border-radius: 3px;
+    box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 2.5rem;
+    width: 1.5vw;
+    transition: 0.4s;
+  }
+  
+  .buttonX:hover {
+    border-color: #fff;
+    background-color: var(--color-red);
+    color: #fff;
+    
+  }
+  

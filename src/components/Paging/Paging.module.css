@@ -1,0 +1,53 @@
+/* $white: #fff;
+$black: #000;
+$grey: #595959;
+$grey-dark: #2b2b2b;
+$grey-light: #eee;
+$green: #86c023;
+$blue: #017ac7; */
+
+.pagination {
+    text-align: center;
+    margin: 1em 0;
+	display: inline-block;
+	height: 50px;
+	
+	background-color: transparent;
+
+}
+
+.pageNumb {
+	display: block;
+	padding: 0 20px;
+	float: left;
+	transition: 200ms;
+	color: #595959;
+	font-size: 16px;
+    font-family: Arial,sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 45px;
+    margin:0.1em;
+    border-radius: 0.3em;
+
+}
+
+.pageNumb:hover
+{
+		background-color: var(--color-lightblue);
+		color:  #fff;
+}
+
+.actualPage{
+    display: block;
+	padding: 0 20px;
+	float: left;
+	color: #595959;
+	font-size: 16px;
+    font-family: Arial,sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 45px;
+    margin:0.1em;
+    border-radius: 0.3em;
+    background-color: var(--color-blue-button);
+	color:  #fff;
+}

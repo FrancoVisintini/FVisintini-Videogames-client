@@ -1,0 +1,223 @@
+{
+    "games": [{
+        "id": 3498,
+        "name": "Grand Theft Auto V",
+        "rating": 4.48,
+        "image": "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg",
+        "genres": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "id": 3328,
+        "name": "The Witcher 3: Wild Hunt",
+        "rating": 4.67,
+        "image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+        "genres": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ]
+    },
+    {
+        "id": 4200,
+        "name": "Portal 2",
+        "rating": 4.62,
+        "image": "https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg",
+        "genres": [
+            "Shooter",
+            "Puzzle"
+        ]
+    },
+    {
+        "id": 5286,
+        "name": "Tomb Raider (2013)",
+        "rating": 4.06,
+        "image": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg",
+        "genres": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "id": 5679,
+        "name": "The Elder Scrolls V: Skyrim",
+        "rating": 4.42,
+        "image": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+        "genres": [
+            "Action",
+            "RPG"
+        ]
+    },
+    {
+        "id": 4291,
+        "name": "Counter-Strike: Global Offensive",
+        "rating": 3.58,
+        "image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
+        "genres": [
+            "Action",
+            "Shooter"
+        ]
+    },
+    {
+        "id": 12020,
+        "name": "Left 4 Dead 2",
+        "rating": 4.09,
+        "image": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
+        "genres": [
+            "Action",
+            "Shooter"
+        ]
+    },
+    {
+        "id": 13536,
+        "name": "Portal",
+        "rating": 4.51,
+        "image": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+        "genres": [
+            "Adventure",
+            "Puzzle"
+        ]
+    }],
+
+    "allPlatforms":[
+        "Android",
+        "iOS",
+        "Linux",
+        "macOS",
+        "Nintendo 3DS",
+        "Nintendo Switch",
+        "PC",
+        "PlayStation 2",
+        "PlayStation 3",
+        "PlayStation 4",
+        "PlayStation 5",
+        "PS Vita",
+        "Web",
+        "Wii U",
+        "Xbox",
+        "Xbox 360",
+        "Xbox One",
+        "Xbox Series S/X"
+    ],
+
+    "allGenres":[
+        {
+            "id": 1,
+            "name": "Action",
+            "createdAt": "2022-01-10T20:05:57.304Z",
+            "updatedAt": "2022-01-10T20:05:57.304Z"
+        },
+        {
+            "id": 2,
+            "name": "Indie",
+            "createdAt": "2022-01-10T20:05:57.333Z",
+            "updatedAt": "2022-01-10T20:05:57.333Z"
+        },
+        {
+            "id": 3,
+            "name": "Adventure",
+            "createdAt": "2022-01-10T20:05:57.338Z",
+            "updatedAt": "2022-01-10T20:05:57.338Z"
+        },
+        {
+            "id": 4,
+            "name": "RPG",
+            "createdAt": "2022-01-10T20:05:57.344Z",
+            "updatedAt": "2022-01-10T20:05:57.344Z"
+        },
+        {
+            "id": 5,
+            "name": "Strategy",
+            "createdAt": "2022-01-10T20:05:57.379Z",
+            "updatedAt": "2022-01-10T20:05:57.379Z"
+        },
+        {
+            "id": 6,
+            "name": "Shooter",
+            "createdAt": "2022-01-10T20:05:57.479Z",
+            "updatedAt": "2022-01-10T20:05:57.479Z"
+        },
+        {
+            "id": 7,
+            "name": "Platformer",
+            "createdAt": "2022-01-10T20:05:57.493Z",
+            "updatedAt": "2022-01-10T20:05:57.493Z"
+        },
+        {
+            "id": 8,
+            "name": "Simulation",
+            "createdAt": "2022-01-10T20:05:57.484Z",
+            "updatedAt": "2022-01-10T20:05:57.484Z"
+        },
+        {
+            "id": 9,
+            "name": "Casual",
+            "createdAt": "2022-01-10T20:05:57.482Z",
+            "updatedAt": "2022-01-10T20:05:57.482Z"
+        },
+        {
+            "id": 10,
+            "name": "Racing",
+            "createdAt": "2022-01-10T20:05:57.502Z",
+            "updatedAt": "2022-01-10T20:05:57.502Z"
+        },
+        {
+            "id": 11,
+            "name": "Puzzle",
+            "createdAt": "2022-01-10T20:05:57.487Z",
+            "updatedAt": "2022-01-10T20:05:57.487Z"
+        },
+        {
+            "id": 12,
+            "name": "Arcade",
+            "createdAt": "2022-01-10T20:05:57.492Z",
+            "updatedAt": "2022-01-10T20:05:57.492Z"
+        },
+        {
+            "id": 13,
+            "name": "Massively Multiplayer",
+            "createdAt": "2022-01-10T20:05:57.507Z",
+            "updatedAt": "2022-01-10T20:05:57.507Z"
+        },
+        {
+            "id": 14,
+            "name": "Sports",
+            "createdAt": "2022-01-10T20:05:57.514Z",
+            "updatedAt": "2022-01-10T20:05:57.514Z"
+        },
+        {
+            "id": 15,
+            "name": "Fighting",
+            "createdAt": "2022-01-10T20:05:57.516Z",
+            "updatedAt": "2022-01-10T20:05:57.516Z"
+        },
+        {
+            "id": 16,
+            "name": "Family",
+            "createdAt": "2022-01-10T20:05:57.521Z",
+            "updatedAt": "2022-01-10T20:05:57.521Z"
+        },
+        {
+            "id": 17,
+            "name": "Board Games",
+            "createdAt": "2022-01-10T20:05:57.522Z",
+            "updatedAt": "2022-01-10T20:05:57.522Z"
+        },
+        {
+            "id": 18,
+            "name": "Educational",
+            "createdAt": "2022-01-10T20:05:57.523Z",
+            "updatedAt": "2022-01-10T20:05:57.523Z"
+        },
+        {
+            "id": 19,
+            "name": "Card",
+            "createdAt": "2022-01-10T20:05:57.530Z",
+            "updatedAt": "2022-01-10T20:05:57.530Z"
+        }
+    ]
+
+
+}
