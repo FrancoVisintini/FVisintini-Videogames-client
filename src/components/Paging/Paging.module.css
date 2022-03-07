@@ -11,7 +11,6 @@ $blue: #017ac7; */
     margin: 1vw 8vw;
 	display: inline-block;
 	height: auto;
-	
 	background-color: transparent;
 
 }
@@ -55,11 +54,11 @@ $blue: #017ac7; */
 
 @media (min-width: 768px) {
     .pageNumb{
-    	padding: 0.8vw;
-		margin:0.2vw;
+    	padding: 0.6vw 0.8vw;
+		margin:0.2vw 0.3vw;
     }
     .actualPage{
-		padding: 0.8vw;
+		padding: 0.6vw 0.8vw;
 		margin:0.2vw;
     }
   }

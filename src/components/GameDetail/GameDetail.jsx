@@ -58,7 +58,7 @@ class GameDetail extends React.Component{
                             </div>
                             <div className={s.description}>
                                 <h4 className={s.titleItem}>Description:</h4>
-                                <p>{detail.description}</p>
+                                <p className={s.pDescription}>{detail.description}</p>
                             </div>
                         </div>
                         

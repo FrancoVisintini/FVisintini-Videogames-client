@@ -25,12 +25,8 @@
 }
 
 .totalDetalle{
-    /* display: flex;
-    justify-content:flex-start; */
     margin: 1vw;
     margin-left: 4vw;
-    /* align-content: flex-start;
-    gap:5vw */
 }
 
 .ImagGenPlat{
@@ -64,6 +60,10 @@
 
 .item{
     margin-bottom: 0.7em;
+}
+
+.pDescription{
+    font-size: 2vw;
 }
 
 @media (min-width: 768px) {

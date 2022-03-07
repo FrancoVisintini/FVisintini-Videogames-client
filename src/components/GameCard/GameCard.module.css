@@ -12,8 +12,8 @@
 .card{
     background: transparent;
     border-radius: 10px;
-    width:40vw;
-    height: 38vw;
+    width:45vw;
+    height: 44vw;
     transition: 0.3s;
     cursor: pointer;
     align-content: center;
@@ -39,33 +39,32 @@
 .title{
     font-size: 1.8vw;
     height:4vw;
-    margin-bottom: 1.5vw;
+    margin-bottom: 0.1vw;
     margin-top:1vw
 }
 
 .image{
     justify-self: center;
-    width:35vw;
-    height: 25vw;
-
+    width:40vw;
+    height: 30vw;
 }
 
 .genre{
     font-weight:500;
     padding: 0.5vw 0;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 
 @media (min-width: 768px) {
     .card{
-        width:30vw;
-        height: 30vw;
+        width:32vw;
+        height: 32vw;
     }
     .title{
         font-size: 1.8vw;
         height:4vw;
-        margin-bottom: 1.4vw;
+        margin-bottom: 1vw;
         margin-top:0.8vw
     }
     
@@ -76,7 +75,7 @@
     }
     
     .genre{
-        font-size: 1.2vw;
+        font-size: 1.5vw;
         padding: 0.3vw 0;
     }
     
@@ -84,23 +83,23 @@
 
 @media (min-width: 1024px) {
     .card{
-        width:20vw;
-        height: 20vw;
+        width:24vw;
+        height: 23vw;
     }
     .title{
         font-size: 1vw;
         height:2vw;
-        margin-bottom: 1.4vw;
+        margin-bottom: 0.2vw;
         margin-top:0.8vw
     }
     
     .image{
-        width:12vw;
-        height: 10vw;
+        width:22vw;
+        height: 16vw;
     }
     
     .genre{
-        font-size: .8vw;
+        font-size: 1vw;
         padding: 0.2vw 0;
     }
     
