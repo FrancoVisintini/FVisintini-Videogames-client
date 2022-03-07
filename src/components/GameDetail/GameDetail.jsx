@@ -28,7 +28,7 @@ class GameDetail extends React.Component{
                     detail.length!==0 ?
                     <div>
                         <br/>
-                        <Link to='/home'>Go Back!</Link>
+                        <Link to='/home' className={s.item}>Go Back!</Link>
                         <SearchBar/>
                         <div className={s.titleBar}>                                                                
                             <h2 className={s.title}>{detail.name}</h2>
@@ -37,7 +37,7 @@ class GameDetail extends React.Component{
                         <div className={s.totalDetalle}>
                             <div className={s.ImagGenPlat}>
                                 <img src={detail.image} alt='not found' className={s.image}/>
-                                <ul className={s.GenPlat}>
+                                <ul className={s.GenPlat} >
                                     <li className={s.item}>
                                         <span className={s.titleItem}>Genres: </span>
                                         <span>{detail.genres?.join(', ')}</span>
@@ -57,7 +57,7 @@ class GameDetail extends React.Component{
                                 </ul>
                             </div>
                             <div className={s.description}>
-                                <h4>Description:</h4>
+                                <h4 className={s.titleItem}>Description:</h4>
                                 <p>{detail.description}</p>
                             </div>
                         </div>

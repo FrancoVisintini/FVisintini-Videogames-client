@@ -1,15 +1,24 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0
+}
+
+html{
+  font-size: 62.5%;
+}
 
 .cardsContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:2em;
+    gap:1vw;
     justify-content: center;
 }
 
 .titulo{
-    font-size: 2rem;
-    padding: 1%;
+    font-size: 6vw;
+    margin: 1.5vw;
 }
 
 .button {
@@ -20,14 +29,13 @@
     cursor: pointer;
     display: inline-block;
     font-family: Arial,sans-serif;
-    height: 2.5rem;
-    font-size: 13px;
+    height: auto;
+    font-size: 3vw;
     outline: 0;
     margin: 0.2vw;
-    margin-top: 0.4vw;
     text-align: center;
     white-space: nowrap;
-    padding: 0.3rem;
+    padding: 1vw;
     transition: 0.4s;
 
   }
@@ -46,12 +54,18 @@
     outline: 0;
   }
   
-  .filterBar{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.3em;
-    padding: 0.3em;
-    margin-left: 20vw;
-    margin-right: 20vw;
+  
+  @media (min-width: 768px) {
+    .titulo{
+      font-size: 3vw;
+      margin: 1vw;
+    }
+    .button{
+      font-size: 1vw;
+      margin: 0.1vw;
+      padding: 0.5vw;
+    }
+    .cardsContainer{
+      gap:.1vw
+    }
   }

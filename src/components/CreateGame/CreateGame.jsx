@@ -221,7 +221,8 @@ function CreateGame(){
 
     return(
         <div>
-            <Link to='/home'>Go Back!</Link>
+            <br/>
+            <Link className={s.goback} to='/home'>Go Back!</Link>
             <h2 className={s.titulo}>Create a new video game</h2>
             {
                 allPlatforms.length!==0 ?
@@ -229,7 +230,7 @@ function CreateGame(){
                 <p className={s.subtitulo}>The fields indicated with * are required</p>
                 <form onSubmit={e=>{handleSubmit(e)}}>
                     <div className={s.gameForm}>
-                        <div className={s.block1}>
+                        <div>
                             <div className={s.block2}>
                                 <input
                                         type='text'
@@ -276,7 +277,7 @@ function CreateGame(){
                                 />
                                 <p className={s.noError}></p>
                             </div>
-                            <div className={s.block2}>
+                            <div className={s.blockDescrip}>
                                 <textarea rows="5" cols="60"
                                     type='text'
                                     name='description'
@@ -287,11 +288,12 @@ function CreateGame(){
                                 />
                                 {errors.description!=='OK' ? <p className={s.error}>{errors.description}</p> : <p className={s.noError}>{errors.description}</p> }
                             </div>
-                        </div>
                         
+                        </div>
                         <div className={s.block3}>
-                            <div className={s.platforms}>
-                                <label className={s.titlePlat}>Platforms   (*)</label>
+                            
+                            <div>
+                                <div className={s.titlePlat}>Platforms (*)</div>
                                 <br/>
                                 <div className={s.grilla}>
                                 {allPlatforms.map(e=> {
@@ -303,6 +305,7 @@ function CreateGame(){
                                                     type='checkbox'
                                                     value={label}
                                                     name={label}
+                                                    className={s.check}
                                                     onChange={p => {handleCheck(p)}}
                                                 />{label}
                                             </label>
@@ -312,9 +315,10 @@ function CreateGame(){
                                 </div>
                                 {errors.platforms!=='OK' ? <p className={s.error}>{errors.platforms}</p> : <p className={s.noError}>{errors.platforms}</p> }
                             </div>
+
                             <div className={s.genres}>
                                 <div className={s.options}>
-                                    <label>Genres  (*): </label>
+                                    <div className={s.titleGenre}>Genres  (*): </div>
                                     <select onChange={g => {handleSelect(g)}}>
                                         {allGenres.map(e => (
                                             <option key={e.id} value={e.name}>{e.name}</option>

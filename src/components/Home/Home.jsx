@@ -20,7 +20,7 @@ function Home(){
     //defino estados locales para paginar
     const [actualPage, setActualPage] = useState(1);
     //eslint-disable-next-line
-    const [gamesPerPage, setGamesPerPage] = useState(15);
+    const [gamesPerPage, setGamesPerPage] = useState(12);
 
     // variables adicionales
     const indexOfLastGameOfActualPage = actualPage * gamesPerPage -1;
@@ -51,7 +51,7 @@ function Home(){
             
             <SearchBar />
           
-            <div className={s.filterBar}>
+            <div>
                 <FilterOrder paging={paging}/>
             </div>
             <Paging

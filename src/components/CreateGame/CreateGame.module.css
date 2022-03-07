@@ -2,51 +2,34 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
-
 }
 
 html{
   font-size: 62.5%;
 }
 
+.goback{
+  font-size: 3vw
+}
+
 .titulo{
-  font-size: 2rem;
+  font-size: 4vw;
+  margin: 2vw;
 }
 
 .subtitulo{
-  font-size: 1.5rem;
+  font-size: 3vw;
+  color: var(--color-red);
 }
 
 .gameForm{
-  display:flex;
   margin:2vw;
-  margin-top:0;
 }
 
-.block1{
-    justify-content:left;
-    align-content: space-around;
-    width: 44vw;
-    
-}
 
 .block2{
-    margin-bottom: 1rem;
-}
-
-.error{
-  color: var(--color-red);
-  font-size: 10px;
-  height: 4em;
-  
-}
-
-
-.noError{
-  color: transparent;
-  font-size: 10px;
-  height: 4em;
-  
+    margin-bottom: 1vw;
+    height: 6vw;
 }
 
 .formInput {
@@ -54,11 +37,12 @@ html{
   box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
   border-radius: 0.2em;
   float: left;
-  font: 12px Arial,sans-serif;
-  height: 1.2vh;
-  padding: 1.7vh;
-  width: 40vw;
-  margin: 0.6em;
+  font: 2vw Arial,sans-serif;
+  height: auto;
+  padding: 0.2vh;
+  width: 90vw;
+  margin: 1.5vw;
+  margin-bottom: 1vw;
 }
 
 .formInput:focus {
@@ -67,17 +51,35 @@ html{
   outline: 0;
 }
 
+.error{
+  color: var(--color-red);
+  font-size: 1.5vw;
+  height: 0.8vw;
+}
+
+.noError{
+  color: transparent;
+  font-size: 1.5vw;
+  height: 0.3vw;
+  
+}
+
+.blockDescrip{
+  margin-bottom: 1.5vw;
+  height: 16vw;
+}
+
 .description {
   border: 1px solid #CCC;
   box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #FFF;
   border-radius: 0.2em;
   float: left;
-  font: 12px Arial,sans-serif;
-  height: 25vh;
-  padding: 10px;
-  width: 40vw;
-  margin: 0.8em;
-  grid-row: auto;
+  font: 2vw Arial,sans-serif;
+  height: auto;
+  padding: 0.2vh;
+  width: 90vw;
+  margin: 1.5vw;
+  margin-bottom: 1vw;
 } 
 
 .description:focus {
@@ -88,20 +90,16 @@ html{
 
 
 .block3{
-  display: block;
-  width: 50vw;
+  width: 90vw;
   text-align: center;
+  margin: 1.5vw;
 }
 
-.platforms{
-  margin-bottom: 1vh;
-  margin-top:1vh;
-  
-}
 
 .titlePlat{
-  font: 1.8rem Arial,sans-serif;
-  
+  font: 3vw Arial,sans-serif;
+  width: 90vw;
+  padding-top: 1vw;
 }
 
 .grilla{
@@ -109,26 +107,36 @@ html{
   justify-content: center;
   text-align: left;
   flex-wrap: wrap;
-  font: 1.4rem Arial,sans-serif;
+  font: 2vw Arial,sans-serif;
 }
 
 .itemP{
-  width:15vw;
-  margin: 0.5vw;
+  width:28vw;
+  margin: 0.8vw;
+}
+.check{
+  outline: 0;
+  text-align: center;
+  height: 1.5vw;
+  width: 1.5vw;
+  margin-right: 0.4vw;
 }
 
 .genres{
   display: flex;
   justify-content:space-evenly;
-  height: 25vh;
   text-align: left;
-  
-  
+  font-size: 2vw;  
 }
 
 .options{
-  width: 22vw;
-  font: 1.6rem Arial,sans-serif;
+  width: 30vw;
+  font: 2vw Arial,sans-serif;
+}
+
+.titleGenre{
+  margin-bottom: 1vw;
+  font-size: 2.5vw;
 }
 
 .selected{
@@ -138,13 +146,13 @@ html{
   align-content: space-between;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 28vw;
+  width: 58vw;
 }
 
 .itemG{
   margin: 0.5vh;
-  width:15vw;
-  font: 1.4rem Arial,sans-serif;
+  width:28vw;
+  font: 2vw Arial,sans-serif;
 }
 
 .buttonX{
@@ -155,15 +163,14 @@ html{
   cursor: pointer;
   display: inline-block;
   font-family: Arial,sans-serif;
-  font-size: 1.4rem;
-  height: 1.8rem;
-  width:1.8rem;
+  font-size: 1.5vw;
+  height: auto;
+  width:2vw;
   outline: 0;
-  margin: 0.3rem;
   text-align: center;
   white-space: nowrap;
   transition: 0.4s;
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .buttonX:hover {
@@ -180,13 +187,14 @@ html{
   box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
   cursor: pointer;
   display: inline-block;
-  font-family: Arial,sans-serif;
-  height: 2.5vw;
-  width: 7vw;
-  font-size: 13px;
+  font-family: 3vw Arial,sans-serif;
+  height: auto;
+  width: auto;
+  font-size: 2vw;
   margin: 0.3%;
   text-align: center;
   white-space: nowrap;
+  padding: 0.5vw;
   transition: 0.4s;
   transform: translateY(-2px);
 }
@@ -203,4 +211,147 @@ html{
   border-color: #e72300;
   box-shadow: rgba(110, 4, 4, 0.5) 0 0 3px 2px;
   outline: 0;
+}
+
+
+@media (min-width: 1024px) {
+
+  .goback{
+    font-size: 1.6vw
+  }
+  
+  .titulo{
+    font-size: 2.5vw;
+    margin: 1vw;
+  }
+
+  .subtitulo{
+    font-size: 1.3vw;
+  }
+
+  .gameForm{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1vw;
+  }
+  
+  .block1{
+    justify-content:left;
+    align-content: space-around;
+    width: 40vw;
+  }
+  
+  .block2{
+    margin-bottom: 1vw;
+    height: 3vw;
+    width: 40vw;
+  }
+
+  .formInput {
+    width: 40vw;
+    font-size: 1.2vw;
+  }
+
+  .error{
+    font-size: 1vw;
+    width: 40vw;
+    height: auto;
+  }
+  
+  .noError{
+    font-size: 1vw;
+    height: auto;
+  }
+  
+  .blockDescrip{
+    margin-bottom: 1.5vw;
+    height: 28vh;
+  }
+  
+  .description {
+    font: 1.2vw Arial,sans-serif;
+    width: 40vw;
+    height: 20vh;
+  } 
+  
+  .block3{
+    width: 45vw;
+    text-align: center;
+  }
+  
+  
+  .titlePlat{
+    font: 1.5vw Arial,sans-serif;
+    width: 45vw;
+    padding-top: 0;
+  }
+  
+  .grilla{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    font: 1.1vw Arial,sans-serif;
+  }
+  
+  .itemP{
+    width:14vw;
+    margin: 0.5vw;
+  }
+  .check{
+    outline: 0;
+    text-align: center;
+    height: 1.1vw;
+    width: 1.1vw;
+    margin-right: 0.2vw;
+  }
+  
+  .genres{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: left;
+    font-size: 1.5vw;
+    gap:1vw  
+  }
+  
+  .options{
+    width: 12vw;
+    font: 1.1vw Arial,sans-serif;
+  }
+  
+  .titleGenre{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+  }
+  
+  .selected{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 30vw;
+    margin-top: 1vw;
+    height: 20vh;
+  }
+  
+  .itemG{
+    margin: 0.8vh;
+    width:13vw;
+    font: 1.1vw Arial,sans-serif;
+  }
+
+  .buttonX{
+    font-size: 1.1vw;
+    width:1.1vw;
+  }
+  
+  .button {
+    font-size: 1.2vw;
+    padding: 0.2vw;
+  }
+
+
 }

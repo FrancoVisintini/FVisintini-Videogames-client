@@ -12,20 +12,28 @@ html{
 .filterGroup{
     display:flex;
     margin-top:1vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    padding: 0.3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .FilterOrder {
-    margin: 0.4rem;
-    padding: .3rem;
+    margin: 0.4vw;
+    padding: .3vw;
     border: 0;
     border-bottom: 2px solid currentcolor;
-    font: 1.3rem Arial,sans-serif;
+    font: 1.3vw Arial,sans-serif;
     letter-spacing: .1em;
     border-style: solid;
     border-width: 1px;
     border-radius: 0.6em;
     box-shadow: 0 0.5px 0.5px rgba(255,255,255,.1), 0 1px 0 #bbb, 0 2px 0 #aaa, 0 1px 1px #444;
-    height: 2.5rem;
+    height: auto;
+    width: 50vw;
     
 }
 
@@ -42,8 +50,8 @@ html{
     cursor: pointer;
     display: inline-block;
     font-family: Arial,sans-serif;
-    height: 2.5rem;
-    font-size: 13px;
+    height: auto;
+    font-size: 1.3vw;
     outline: 0;
     margin: 0.2vw;
     margin-top: 0.2vw;
@@ -66,4 +74,29 @@ html{
     border-color: #e72300;
     box-shadow: rgba(110, 4, 4, 0.5) 0 0 3px 2px;
     outline: 0;
+  }
+
+  @media (min-width: 768px) {
+    .filterGroup{
+      flex-wrap: nowrap;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+
+    .FilterOrder {
+      margin: 0.2vw;
+      padding: .2vw;
+      font: 1.2vw Arial,sans-serif;
+      height: auto;
+      width: 50vw;
+      
+  }
+  
+  .button {
+      height: auto;
+      font-size: 1.2vw;
+      margin: 0.2vw;
+      padding: 0.2vw;
+  
+    }
   }

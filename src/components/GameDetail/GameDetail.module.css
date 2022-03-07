@@ -1,45 +1,64 @@
-.head{
-    display: flex;
-    justify-content: center;
-    width: 80vw;
-}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
 
-.title{
-    margin-bottom: 0.1vw;
-}
-
-.totalDetalle{
-    display: flex;
-    justify-content:flex-start;
-    margin: 1vw;
-    margin-left: 2vw;
-    align-content: flex-start;
+.titleBar{
+    margin-top: 2vh;
+    margin-left:2vw;
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-right: 5vw;
     gap:5vw
 }
 
+.title{
+    width: 80vw;
+    margin-bottom: 0.1vw;
+    font-size: 3vw;
+}
+
+.totalDetalle{
+    /* display: flex;
+    justify-content:flex-start; */
+    margin: 1vw;
+    margin-left: 4vw;
+    /* align-content: flex-start;
+    gap:5vw */
+}
+
 .ImagGenPlat{
-    padding-top: 1.4vw;
     text-align: left;
-    width: 30vw;
+
 }
 
 .GenPlat{
-    font-size: small;
-    margin-left: -2vw;
+    font-size: 2vw;
+    text-align:left;
+    list-style-type:none;
+    
 }
 
 .description{
     text-align: justify;
     margin-right: 3vw;
+    font-size: 1.5vw;
 }
 
 .image{
-    align-self: start;
-    width:30vw;
-    height: 20vw;
+    align-self: left;
+    width:92vw;
+    height: 55vw;
 }
 
 .titleItem{
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -47,11 +66,42 @@
     margin-bottom: 0.7em;
 }
 
-.titleBar{
-    margin-left:2vw;
-    display:flex;
-    justify-content: flex-start;
-    align-content: center;
-    margin-right: 5vw;
-    gap:5vw
+@media (min-width: 768px) {
+    
+    .title{
+        width: 80vw;
+        margin: 1vw 0;
+        font-size: 2.2vw;
+    }
+    
+    .totalDetalle{
+        display: flex;
+        justify-content:flex-start;
+        align-content: flex-start;
+        gap:3vw
+    }
+    
+    .GenPlat{
+        font-size: 1.5vw;
+    }
+    
+    .image{
+        width:25vw;
+        height: 20vw;
+    }
+    
+    .titleItem{
+        font-size: 1.3vw;
+    }
+    
+    .item{
+        margin-bottom: 0.7em;
+        font-size: 1.2vw;
+    }
+
+    .description{
+        text-align: justify;
+        margin-right: 3vw;
+        font-size: 1.3vw;
+    }
 }
